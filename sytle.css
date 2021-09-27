@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #eeba06;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 270px;
+    height: 500px;
+    margin: 8% auto;
+    border: solid black 4px;
+    border-radius: 20px;
+    background-color: #204360;
+}
+
+
+/*Top section until the input*/
+.top-section{
+    width: 100%;
+    height: 25vh;
+    border-radius: 17px 17px 0 0;
+    background-color:#fff ;
+}
+.top-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.top-left-side{
+    padding: 2px;
+    padding-left: 14px;
+}
+.top-center{
+    width: 135px;
+    height: 20px;
+    background-color: black;
+    border-radius: 0 0 40% 40%;
+    justify-content: space-between;
+    
+}
+
+.top-right-side{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: -10px;
+}
+.top-icon {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+}
+
+#input-value{
+    width: 100%;
+    height: 20vh;
+    border: none;
+    font-size: 1.5rem;
+}
+
+
+/*Bottom section the btns*/
+.bottom-sesction{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #204360;
+    border-radius: 20px;
+    position: relative;
+    top: -1rem;
+    margin: 0 auto;
+
+}
+.btns-line{
+    display: flex;
+    width: 90%;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#divid, #ac{
+    width: 130px;
+    height: 50px;
+    border-radius: 40%;
+    position: relative;
+    left: 5px;
+    margin-top:15px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-bottom:10px ;
+    
+}
+#egal{
+    width: 120px;
+    border-radius: 40%;
+    margin-left: 10px;
+}
