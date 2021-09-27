@@ -12,54 +12,37 @@
     <section class="container">
         <div class="top-section">
             <div class="top-header">
-                <p class="top-left-side">9:41</p>
-                <span class="top-center"></span>
-                <div class="top-right-side">
-                    <img class="top-icon" src="https://img.icons8.com/material-two-tone/24/000000/low-connection.png"/>
-                    <img class="top-icon" src="https://img.icons8.com/ios-filled/50/000000/wifi--v1.png"/>
-                    <img class="top-icon" src="https://img.icons8.com/windows/32/000000/high-battery.png"/>
-                </div>
+                <p class="mark-name"> canon</p>
+                <img id="turn-off" src="https://img.icons8.com/ios-filled/50/000000/power-off-button.png"/>
             </div>
-            <form action="">
-                <input type="text" id="input-value">
+            <form name="calc">
+                <input class="input-value" type="text" value="" disabled name="display">
             </form>
-
         </div>
 
    <!--Bottom sesction of the calculatrice the btns -->
-        <div class="bottom-sesction">
-            <div class="bottom-body">
-                <div class="btns-line">
-                    <button  id="ac">AC</button>
-                    <button  class="numbers" id="divid">÷</button>
-                </div>
 
-                <div class="btns-line">
-                    <button class="btn numbers" id="one">1</button>
-                    <button class="btn numbers" id="two">2</button>
-                    <button class="btn numbers" id="three">3</button>
-                    <button class="btn numbers" id="multiplication" >X</button>
-                </div>
-                <div class="btns-line">
-                    <button class="btn numbers" id="four">4</button>
-                    <button class="btn numbers" id="five">5</button>
-                    <button class="btn numbers" id="six">6</button>
-                    <button class="btn numbers" id="muins" >-</button>
-                </div>
-                <div class="btns-line">
-                    <button class="btn numbers" id="seven">7</button>
-                    <button class="btn numbers" id="eight">8</button>
-                    <button class="btn numbers" id="nine">9</button>
-                    <button class="btn numbers" id="plus" >+</button>
-                </div>
-                <div class="btns-line">
-                    <button class="btn numbers" id="zero">0</button>
-                    <button class="btn numbers" id="camma">,</button>
-                    <button class="btn " id="egal">=</button>
-                </div>
-            </div>
-
-        </div>
+        <form  class="bottom-sesction">    
+            <input class="icon bcolor" type="button" value="AC" onclick="ac(this.value)">
+            <input class="icon bcolor" type="button" value="C" onclick="c(this.value)">
+            <input class="icon bcolor" type="button" value="%" onclick="data(this.value)">
+            <input class="icon bcolor" type="button" value="-"onclick="data(this.value)" >
+            <input class="icon " type="button" value="9" onclick="data(this.value)">
+            <input class="icon" type="button" value="8"onclick="data(this.value)" >
+            <input class="icon" type="button" value="7"onclick="data(this.value)" >
+            <input class="icon bcolor" type="button" value="*" onclick="data(this.value)">
+            <input class="icon" type="button" value="6" onclick="data(this.value)">
+            <input class="icon" type="button" value="5" onclick="data(this.value)">
+            <input class="icon" type="button" value="4"onclick="data(this.value)">
+            <input class="icon bcolor" type="button" value="/"onclick="data(this.value)">
+            <input class="icon" type="button" value="3"onclick="data(this.value)">
+            <input class="icon" type="button" value="2"onclick="data(this.value)">
+            <input class="icon" type="button" value="1"onclick="data(this.value)">
+            <input class="icon bcolor" type="button" value="+"onclick="data(this.value)">
+            <input class="icon " type="button" value="0"onclick="data(this.value)">
+            <input class="icon egal-icon" type="button" value="=" onclick="egal()">
+        </form>
+   
     </section>
 
     <script src="app.js"></script>
